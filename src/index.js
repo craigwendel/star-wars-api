@@ -5,7 +5,7 @@ import './styles/App.css'
 import registerServiceWorker from './registerServiceWorker'
 
 // IMPORT REACT ROUTER <<<<<<<<<<<<<<<<<<<<<<
-import {BrowserRouter, Route, Switch, NavLink, Link} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 // IMPORT COMPONENTS <<<<<<<<<<<<<<<<<<<<<<
 import Explorer from './components/Explorer'
 import BaseLayout from './components/Layout'

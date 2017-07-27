@@ -21,9 +21,8 @@ export default class BaseLayout extends Component {
             <div className="navbar-header">
               <ul className="nav navbar-nav">
                 <li>
-                  {/* Add a NavLink set to the home page. Set the activeStyle to a color of yellow */}
                   <NavLink exact to='/' activeStyle={{color: 'yellow'}}>Home</NavLink>
-
+                  {/* Add a NavLink set to the home page. Set the activeStyle to a color of yellow */}
                 </li>
                 <li>
                   <NavLink to='/characters' activeClassName='selected'>Characters</NavLink>
@@ -35,7 +34,6 @@ export default class BaseLayout extends Component {
                 </li>
                 <li>
                   <NavLink to='/films' activeClassName='selected'>Films</NavLink>
-
                   {/* Add a NavLink set to films. Include activeClassName */}
                 </li>
               </ul>
